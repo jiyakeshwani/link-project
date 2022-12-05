@@ -20,7 +20,7 @@ function Name() {
         <h4 className="h4">Enter your full name</h4>
         <p className="email-p">For account security, please use your full legal name.</p>
         <input className="email" type='text' name="name" value={name} placeholder='Full Name' onChange={handleChange}/>
-        <Link to='/address' className="signup-btn"><button disabled={!validation}>Next</button></Link>
+        <Link to='/address' className="signup-btn"><button className="next-btn" disabled={!validation}>Next</button></Link>
     </div>
     </>
   )

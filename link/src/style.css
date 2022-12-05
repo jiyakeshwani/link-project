@@ -142,7 +142,8 @@ body{
 .para{
     flex-basis: 55%;
     color: #1D3944;
-    margin-top: 12rem;
+    margin-top: 14rem ;
+    
 }
 
 .para h2{
@@ -311,7 +312,7 @@ margin: 1rem 0 1rem 0;
 }
 .otp{
     display: flex;
-   margin-left: 10rem;
+  margin-left: 5rem;
 }
 .footer{
     background-color: #1D3944;
@@ -409,13 +410,13 @@ footer{
     margin-left: 1rem;
 }
 /* phone */
-.material-symbols-outlined{
+.material-symbols-outlined1{
     color: rgb(155, 154, 154);
     margin-top: 2rem;
     padding: 0.6rem; 
     font-size: 1.3rem;
 }
-.material-symbols-outlined:hover{
+.material-symbols-outlined1:hover{
     background-color: #f2f3f3;
     padding:  0.3rem 0.3rem 0.3rem 0.6rem;
     border-radius: 0.6rem;
@@ -434,6 +435,10 @@ margin: 1rem 0 0 0;
     margin-left: 1rem;
     border: none;
 }
+
+.PhoneInputInput:focus{
+    outline: none;
+}
 .PhoneInputCountry{
     padding: 0.5rem;
     background-color: #f2f3f3 ;
@@ -441,4 +446,174 @@ margin: 1rem 0 0 0;
 .num-p{
     font-size: 0.7rem;
     color: #a9afb1;
+}
+.margin-top{
+    margin-top: 2rem;
+    background-color: #33DDB3;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1rem 14.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.color-green{
+    color: #33DDB3;
+    font-weight: 500;
+}
+.help-phone-page{
+    color: #33DDB3;
+    margin-top: 2.7rem;
+
+}
+.phone-p{
+    color: #1D3944;
+    width: 75%;
+    margin: 1rem 0 1rem 0; 
+}
+.otp-field:focus{
+    border: 3px solid #33DDB3;
+    outline: none;
+    border-radius: 0.6rem;
+}
+.otp-field{
+    padding: 0.4rem 0.4rem 0.4rem 0.7rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    outline: none;
+    border: 1px solid #1D3944;
+    
+}
+.phone-p2{
+    color: #32444b;
+  font-size: 0.8rem;
+    margin: 1rem 0 1rem 0; 
+}
+.verify-btn{
+    background-color: #33DDB3;
+    color: black;
+    border: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 0.6rem;
+    padding: 0.8rem 2rem;
+    margin-top: 2rem;
+}
+.next-btn{
+    background-color: #33DDB3;
+    border: 0;
+}
+.address-head{
+    margin: 3rem 0 1.2rem 0;
+    color: #1D3944;
+    font-size: 1.4rem;
+    font-weight: 550;
+}
+.input1{
+    padding: 1rem 15rem 0.8rem 0.8rem;
+    margin: 0.7rem 0 0.7rem 2.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #1D3944;
+
+}
+select{
+  
+    margin: 0.7rem 0 0.7rem 2.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #32444b;
+}
+.state{
+    padding:1rem 5rem 1rem 1rem;
+    margin: 0.7rem 0 0.7rem 2.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #32444b;
+}
+.states{
+    padding:1rem 7rem 1rem 1rem;
+    margin: 0.7rem 0 0.7rem 2.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #32444b;
+}
+.input2{
+    padding:1rem 0.6rem 0.8rem 0.8rem;
+    margin: 0.7rem 0 0.7rem 2.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #32444b;
+}
+.address-btn{
+    background-color: #33DDB3;
+    border-radius: 0.5rem;
+    margin-left: 2.5rem;
+    border: none;
+    padding: 1rem 10rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+.card-num{
+    padding:1rem 2.5rem 0.8rem 0.8rem;
+  font-size: 1.2rem ;
+ 
+    border:0;
+    margin-left: 2rem;
+}
+.card-num-box{
+    padding:0.8rem 1rem 0.6rem 0.8rem;
+  margin-top: 2rem ;
+  background-color: white;
+    border-radius: 0.4rem 0.4rem 0 0; 
+    border: 1px solid #32444b;
+}
+.card-num-box:hover{
+    border: 3px solid #33DDB3;
+}
+.date-cvv {
+    padding:1.3rem 2.4em 1rem 0.8rem; 
+    border-radius: 0 0 0 0.4rem ; 
+    border: 1px solid #32444b;
+}
+.date-cvv2{
+    padding:1.3rem 2.2em 1rem 0.8rem; 
+    border-radius: 0 0 0.4rem 0  ; 
+    border: 1px solid #32444b;
+}
+.date-cvv:hover{
+    border: 3px solid #33DDB3;
+}
+.date-cvv2:hover{
+    border: 3px solid #33DDB3;
+}
+.card-num:focus{
+    outline: none;
+}
+.card-type{
+    width: 3rem;
+    margin-top: 0.9rem;
+}
+.num{
+    font-size: 0.7rem;
+    text-align: center;
+    color: #32444b;
+}
+.bottom{
+    margin-bottom: 2rem;
+}
+.left{
+    margin-right: 3.5rem;
+    margin-top: 2rem;
+    color: #1D3944;
+    font-weight: 600;
+
+}
+.checkbox:checked{
+  accent-color: #33DDB3;
+  color: white;
+}
+.left2{
+    margin-right: 15rem;
+    color: #757e82;
+    line-height: 1.4;
+    margin-bottom: 3rem;
 }
