@@ -1,0 +1,444 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+
+main{
+    font-family: "HW Nuckle",sans-serif;
+    background: radial-gradient(241.49% 92.92% at 85.26% 77.98%,#fff 63%,#b2ffe3 81.25%,#feffbd 95.64%);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+body{
+    font-family: "HW Nuckle",sans-serif; 
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    width: 100%;
+}
+.container2{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+
+.LinkLogo{
+    width: 3.5rem;
+    color: #1D3944;
+}
+
+.LinkLogo:hover{
+    opacity: 0.8;
+}
+
+.signup{
+    text-decoration: none;
+    color: #1D3944;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.signup:hover{
+    opacity: 0.8;
+}
+
+.hero-section{
+    margin-top: 2rem;
+}
+
+
+.hero-section h1{
+    font-size: 4rem;
+    color: #1D3944;
+    font-weight: 500;
+    line-height: 1.2;
+   
+}
+.login{
+    background-color: #1D3944;
+    color: white;
+    padding: 0.6rem 1.8rem;
+    border: 0;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+.login:hover{
+    opacity: 0.8;
+}
+/* .phn-animation{
+    position: relative;
+    width: 338px;
+    height: 692px;
+    background: white;
+    border-radius: 2.4rem;
+    overflow: hidden;
+    box-shadow:  0 45px 105px -20pxrgba(50,50,93,0.25),0 30px 60px -30pxrgba(0,0,0,0.3);
+} */
+
+.para{
+    flex-basis: 55%;
+    color: #1D3944;
+    margin-top: 12rem;
+}
+
+.para h2{
+    font-size: 2.7rem;
+}
+.para p{
+    line-height: 1.3;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.video{
+    background-color: white;
+
+    box-sizing: border-box;
+    box-shadow:  2px 2px 30px 0.1px #a9afb1  ;
+    width: 21vw;
+    border-radius: 30px;
+}
+
+.animation{
+    margin-top: 4rem;
+}
+
+.h2{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #1D3944;
+    margin: 2rem 0;
+}
+.first{
+    flex-basis: 31%;
+    color: #1D3944;
+}
+.h3{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+.lock{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.section3-p{
+    color: #1D3944;
+    font-size: 1.3rem;
+    width: 50%;
+    margin-bottom: 5rem;
+}
+.article{
+    flex-basis: 23%;
+}
+.article img{
+    width: 100%;
+    border-radius: 10px;
+   
+}
+
+.img-container{
+    position: relative;
+width: 250px;
+height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.figure{
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-basis: 23%;
+}
+.img-container:hover .img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    object-fit: cover;
+}
+.img{
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    width: 100%;
+}
+.img:hover  .arrow{
+    background-color: #86DDC8;
+}
+.arrow:hover{
+    background-color: #64dcc0;
+    border-radius: 50%;
+}
+.arrow{
+    color: #1D3944;
+    margin-right: 0.8rem;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+.article-p{
+    color: #1D3944;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.signup-page{
+    background: linear-gradient(352.43deg,hsla(0,0%,100%,.2),rgba(200,255,235,.2) 78.01%,rgba(254,255,191,.2)),#fff;
+
+}
+.h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1D3944;
+    margin-top: 5rem;
+}
+.email-p{
+color: #1D3944;
+margin: 1rem 0 1rem 0;
+}
+.email{
+    color: #1D3944;
+    padding: 1.3rem 14rem 1rem 1rem;
+    margin: 0.8rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border: 1px solid #d9dcde;
+}
+.email:focus{
+   
+    outline: 3px solid #33DDB3;
+
+}
+.signup-btn{
+    background-color: #33DDB3;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1rem 12.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    
+}
+.help{
+    background-color: #F6F8FA;
+    padding: 0.6rem 0.7rem ;
+    border-radius: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.end{
+    margin-top: 15rem;
+}
+.email-foot{
+    color: #a9afb1;
+    font-size: 0.9rem;
+    font-weight: 400;
+    word-spacing: 0.3rem;
+}
+.phone{
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+}
+.otp-field{
+    width: 5%;
+    margin-right: 0.8rem;
+}
+.otp{
+    display: flex;
+   margin-left: 10rem;
+}
+.footer{
+    background-color: #1D3944;
+}
+.built-stripe{
+    color: #1D3944;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1rem;
+}
+.built-stripe-para{
+    color: #1D3944;
+    width: 65%;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-weight: 530;
+    margin-top: 1rem;
+}
+.stripe{
+    color: #6F68FF;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.stripe-img{
+    width: 4rem;
+}
+.stripe-box{
+    margin-top: 7rem;
+    padding: 5rem;
+    box-shadow:  2px 2px 30px 0.1px #a9afb1  ;
+    border-radius: 0.5rem;
+}
+.faqs{
+    color: #1D3944;
+    font-size: 2.5rem;
+    font-weight: 50;
+    margin: 7rem 0 4rem 0;
+}
+.faq1 h4{
+    color: #1D3944;
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin: 2rem 0;
+}
+.faq1 p{
+    color: #1D3944;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1.7rem 0;
+    width: 80%;
+    line-height: 1.5;
+}
+.log-in{
+    color: #33DDB3;
+    font-size: 1.1rem;
+    font-weight: 600; 
+}
+.footer h2{
+    color: white;
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+footer{
+    padding: 4rem;
+}
+.foot-btn{
+    background-color: #33DDB3;
+    border: 0;
+    padding: 0.6rem 1.8rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    margin: 2rem 0;
+}
+.foot-p1{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 550;
+    margin: 1rem 0;
+}
+.foot-p2{
+    color: #33DDB3;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+.foot-hr{
+    color: #a9afb1;
+    margin-bottom: 2rem;
+}
+.white{
+    color: white;
+}
+.ul li{
+    color: white;
+    margin-left: 1rem;
+}
+/* phone */
+.material-symbols-outlined{
+    color: rgb(155, 154, 154);
+    margin-top: 2rem;
+    padding: 0.6rem; 
+    font-size: 1.3rem;
+}
+.material-symbols-outlined:hover{
+    background-color: #f2f3f3;
+    padding:  0.3rem 0.3rem 0.3rem 0.6rem;
+    border-radius: 0.6rem;
+}
+.h5{
+font-size: 1.6rem;
+font-weight: 600;
+margin: 1rem 0 0 0;
+}
+.phone-p{
+    width: 90%;
+    text-align: center;
+    line-height: 1.5;
+}
+.PhoneInputInput{
+    margin-left: 1rem;
+    border: none;
+}
+.PhoneInputCountry{
+    padding: 0.5rem;
+    background-color: #f2f3f3 ;
+}
+.num-p{
+    font-size: 0.7rem;
+    color: #a9afb1;
+}
