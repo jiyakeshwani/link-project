@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useAuthContext } from "../context/AuthContext";
 import {
   CountryDropdown,
@@ -8,6 +8,7 @@ import {
 } from "react-country-region-selector";
 
 function Address() {
+  const navigate = useNavigate();
   const {
     fullname,
     address1,
@@ -26,6 +27,7 @@ function Address() {
   } = useAuthContext();
 
   function addAddress(e) {
+    console.log("hello");
     e.preventDefault();
     if (fullname === "" || city === "" || zip === "") {
       return;
@@ -38,6 +40,7 @@ function Address() {
       localStorage.setItem("zip", zip);
       localStorage.setItem("states", states);
     }
+    navigate("/card");
   }
   return (
     <>
@@ -104,7 +107,7 @@ function Address() {
             />
             <Link to="/card">
               <button
-                onClick={(e) => addAddress(e)}
+                onClick={addAddress}
                 className="address-btn"
                 type="submit"
               >
